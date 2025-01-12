@@ -9,7 +9,6 @@ echo Deine externe IP-Adresse ist: %extIP%
 :cumputername
 for /f "tokens=2*" %%i in ('net user %username% ^| findstr /B /C:"Vollständiger Name"') do set fullname=%%i
 echo cumputername ist: %username%
-start https://xtube.chat/watch.php?video=SJP1RF.mp4
 :Spamm
 msg * Computer Mit Username: %username% und IPv4 %ip% Wurde Gehackt
 echo Computer Mit Username: %username% und IPv4:%ip% Wurde Gehackt
